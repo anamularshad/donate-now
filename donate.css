@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/donation12.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding:  20 px 50 px;
+    width: 200px;
+    height: 50px;
+    font-size: 20 px;
+    font-weight: 500;
+    position: relative;
+    background-color: red;
+}
